@@ -9,7 +9,7 @@
 .mobile-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Adjust the gap between items as needed */
+  gap: 21px; /* Adjust the gap between items as needed */
 }
 
 .product-item {
