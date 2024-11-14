@@ -4,17 +4,20 @@ import { mobdata } from '../../Data/Mobile';
 
 function Singlemobile() {
     const { id } = useParams();
-    const mobile = mobdata.find((ele) => ele.id == (id));
-    console.log(id)
+    const mobile = mobdata.find((ele) => ele.id === Number(id) || ele.id === id);
+
+    // Check if the mobile object exists
+    if (!mobile) {
+        return <p>Mobile not found</p>;
+    }
+
     return (
-        <div className="product-item" >
-            <div>
-            <img src={mobile.img} alt="" />
+        <div className="product-item">
+            <img src={mobile.img} alt={`${mobile.Brand}`} />
+            <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                <p>{mobile.Brand}</p>
+                <p>{mobile.price}</p>
             </div>
-              <div style={{display:'flex', flexWrap:'wrap'}}>
-             <p>{mobile.Brand}</p> 
-            <p >{mobile.price}</p>
-        </div>
         </div>
     );
 }

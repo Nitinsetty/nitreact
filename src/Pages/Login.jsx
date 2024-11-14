@@ -10,7 +10,7 @@ function Login() {
             <label>Password: </label>
             <input type="password" id="password" name="password" required/>
         </form>
-        <Link to ="/home"><button>Login</button></ Link >
+        <Link to ="/dashboard"><button>Login</button></ Link >
     </div>
   )
 }

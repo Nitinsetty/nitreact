@@ -1,6 +1,6 @@
-import React from 'react'
-import Login from './Pages/Login'
-import Dashboard from './Pages/Dashboard'
+import React from 'react';
+import Login from './Pages/Login';
+import Dashboard from './Pages/Dashboard';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home';
 import Newmobile from './Pages/Newmobile';

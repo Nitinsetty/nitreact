@@ -9,7 +9,7 @@ function Mobile() {
                 <Link to={`/mobile/${item.id}`}>
                 <div className="product-item"> 
                     <div>
-                        <img src={item.img} alt={item.title} className='attach' />
+                        <img src={item.img} alt={item.Brand} className='attach' />
                     </div>
                     <div className='cut'>
                         <h2>{item.title}</h2>
