@@ -6,7 +6,7 @@ function Mobile() {
     return (
         <div className="mobile-container">
             {mobdata.map((item) => (
-                <Link to={`/mobile/${item.id}`} style={{textDecoration:"none", color:"black"}}>
+                <Link to={`/mobile/${item.id}`}>
                 <div className="product-item"> 
                     <div>
                         <img src={item.img} alt={item.Brand} className='attach' />
