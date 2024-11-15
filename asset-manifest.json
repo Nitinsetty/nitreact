@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nitreact/static/css/main.c874b982.css",
-    "main.js": "/nitreact/static/js/main.65c48002.js",
+    "main.js": "/nitreact/static/js/main.0666c136.js",
     "static/js/453.fc89fcfa.chunk.js": "/nitreact/static/js/453.fc89fcfa.chunk.js",
     "index.html": "/nitreact/index.html",
     "main.c874b982.css.map": "/nitreact/static/css/main.c874b982.css.map",
-    "main.65c48002.js.map": "/nitreact/static/js/main.65c48002.js.map",
+    "main.0666c136.js.map": "/nitreact/static/js/main.0666c136.js.map",
     "453.fc89fcfa.chunk.js.map": "/nitreact/static/js/453.fc89fcfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c874b982.css",
-    "static/js/main.65c48002.js"
+    "static/js/main.0666c136.js"
   ]
 }
